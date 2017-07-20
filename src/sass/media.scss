@@ -1,0 +1,90 @@
+@media screen and (max-width: 1120px) {
+  .head-menu__menu {display: none;}
+  .bayan {display: block;}
+  .obertka {overflow-x: scroll;}
+  .price__head { padding: 53px 15px 15px 15px;}
+  .table-wrap { overflow-x: scroll; min-width: 898px; padding-right: 55px;}
+;
+}
+
+@media screen and (max-width: 1024px) {
+  .under-head__top-img {display: none;}
+}
+
+@media screen and (max-width: 992px) {
+  .consult__left {width: 100%;
+    &--form {    padding: 0 30px;}
+  }
+
+  .ability__text:after {width: 40%;}
+
+  .tasker {
+    .first__pod-text:after {
+      width: 40%;
+    }
+
+    .second { justify-content:space-around;}
+
+    .third a {font-size: 18px; padding: 25px 45px;}
+  }
+
+  .consult {    justify-content: center;
+    &__right {   padding: 112px 30px 50px 30px; width: 100%;}
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .foot { justify-content: flex-start; flex-direction: column; align-items: flex-start;}
+}
+
+
+@media screen and (max-width: 846px) {
+  .we__bot--block {width: 50%;}
+  .client__text-block--bot {padding: 0 15px;}
+}
+
+@media screen and (max-width: 660px) {
+  .price {margin: 0 0px;}
+  .block {
+    .mbox {padding: 0 0px 0 0px;}
+  }
+  .obertka {margin: 0 0px;}
+  .green__wrap {margin: 0 0px 54px 0px;}
+}
+
+@media screen and (max-width: 520px) {
+  .consult__bot--phone {font-size: 45px;}
+}
+
+@media screen and (max-width: 495px) {
+  .head-menu { flex-direction: column; align-items: center;}
+  .bayan ul {padding-top: 24px;}
+}
+
+
+
+@media screen and (max-width: 480px) {
+  .under-head__fishka {bottom: -110px;}
+  h1 {font-size: 35px;}
+  .we__bot { justify-content: center;
+    &--block {width: 100%;}
+  }
+  .consult__bot--phone {font-size: 30px;}
+  .ability__arrow {margin: 24px 0px 0 23px;}
+}
+
+@media screen and (max-width: 320px) {
+  h1 {font-size: 30px;}
+  .under-head__top-text--second {margin: 0 0 170px 0;}
+  h2 {font-size: 26px;}
+  .under-head {
+    &__fishka{ bottom: -60px;
+      &--text {padding: 12px 12px 0 5px; line-height: 1.26;}
+      &--question {margin: -15px 0 0 -15px; box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);}
+    }
+  }
+  h3 {font-size: 18px;}
+}
+
+
+
